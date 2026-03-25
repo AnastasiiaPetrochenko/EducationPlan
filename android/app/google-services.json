@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "312079939945",
+    "project_id": "ui-lab4-flutter-cpp",
+    "storage_bucket": "ui-lab4-flutter-cpp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312079939945:android:dc4ff9f6d24f0ea14025f8",
+        "android_client_info": {
+          "package_name": "com.example.ui_lab_3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312079939945-8hnbcq67qgggclv7iukc7umbbq32o8sd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMmQNDPsOjfpMktv4qWN3zOrW3vr4cRAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312079939945-8hnbcq67qgggclv7iukc7umbbq32o8sd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

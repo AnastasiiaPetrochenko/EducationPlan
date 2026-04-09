@@ -256,9 +256,9 @@ class _LoginScreenState extends State<LoginScreen> {
                       onPressed: _isLoading ? null : _signInWithGoogle,
                     ),
                     SizedBox(height: isDesktop ? 24 : 32),
-
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
+Wrap(
+                      alignment: WrapAlignment.center,
+                      crossAxisAlignment: WrapCrossAlignment.center,
                       children: [
                         const Text(
                           'Немає акаунту? ',

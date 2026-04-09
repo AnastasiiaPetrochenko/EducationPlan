@@ -76,7 +76,6 @@ class TaskEditProvider with ChangeNotifier {
     _authorId = value;
   }
 
-  // Завантаження існуючого завдання для редагування
   void loadTask(Task task) {
     _title = task.title;
     _courseId = task.courseId;
@@ -139,7 +138,7 @@ class TaskEditProvider with ChangeNotifier {
 
     try {
       final newTask = Task(
-        id: '', // згенеровано Firestore
+        id: '',
         title: _title.trim(),
         courseId: _courseId,
         deadline: _deadline,
